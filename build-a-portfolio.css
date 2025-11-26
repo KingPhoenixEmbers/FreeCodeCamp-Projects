@@ -32,7 +32,7 @@ a {
   padding: 2px;
 }
 
-a:hover {
+.nav a:hover {
   color: var(--header-backdrop);
   background-color: var(--link-color);
   cursor: pointer;
@@ -116,13 +116,6 @@ ul {
   max-width: 600px;
   margin: 0 auto 5rem auto;
   border-top: 2px solid
-}
-
-iframe {
-  border: none;
-  width: 300px;
-  height: 300px;
-  border-radius: 5%;
 }
 
 @media screen and (min-width: 900px) {
