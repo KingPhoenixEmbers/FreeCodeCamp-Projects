@@ -1,40 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Index created Nov. 21 2025 -->
-	<!-- Last update: Nov. 21 2025-->
-
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>KingPhoenixEmbers' Portfolio</title>
-	<link rel="stylesheet" href="index.css"> <!-- Nov. 21 2025: Index CSS not yet made -->
+  <link rel="stylesheet" href="build-a-portfolio.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>King Phoenix's Portfolio</title>
 </head>
 <body>
-	<h1 class="welcome">WELCOME</h1>
-	<h2 class="welcome">TO</h2>
-	<h3 class="welcome">MY PORTFOLIO</h3>
-	
-	<p>As you might be able to tell, this is very much a work in progress. Thank you for your patience!</p>
-	
-	<h4 class="link_list">HTML & CSS</h4>
-	
-	<figure id="html_css_cert_figure" class="image">
-		<a id="html_css_cert_link" href="https://freecodecamp.org/certification/kingphoenixembers/responsive-web-design">	
-			<img 
-				id="html_css_cert" 
-				src="Images/Responsive Web Design Cert v2.png"
-				alt="Thomas Koon's HTML & CSS Certification from freeCodeCamp.org"
-			/>	
-			<figcaption id="html_css_cert_caption">Thomas Koon's HTML & CSS Certification from freeCodeCamp.org, received December 31, 2024.</figcaption>
-		</a>
-	</figure>
-	
-	<ul>
-		<li><a href="HTML_and_CSS/build-a-survey-form.html">Survey Form</a></li>
-		<li><a href="HTML_and_CSS/build-a-product-landing-page.html">Product Landing Page</a></li>
-		<li><a href="HTML_and_CSS/build-a-technical-documentation-page.html">Technical Documentation</a></li>
-		<li><a href="HTML_and_CSS/build-a-tribute-page.html">Tribute Page</a></li>
-		<li><a href="HTML_and_CSS/build-a-personal-portfolio-webpage.html">Personal Portfolio</a></li>
-	</ul>
+  <!-- Start NavBar Section -->
+  <nav id="navbar" class="nav">
+    <ul class="navlist">
+      <li>
+        <a href="#welcome-section">About Me</a>
+      </li>
+      <li>
+        <a href="#projects">My Projects</a>
+      </li>
+      <li>
+        <a href="#contact">Contact Me</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- End NavBar Section -->
+  <!-- Start Intro Section -->
+  <section id="welcome-section" class="welcome-section">
+    <a href="top"></a>
+    <h1>Welcome to my portfolio!</h1>
+    <p>I'm <strong class="name">Thomas Koon</strong>, and I'm a web developer.</p>
+  </section>
+  <!-- End Intro Section -->
+  <!-- Start Projects Section -->
+  <section id="projects" class="projects-section">
+    <h2 class="projects-section-header">An Incomplete List of Phoenix's Projects</h2>
+    <div class="projects-list">
+      <img
+      class="project-sample"
+      src="https://github.com/KingPhoenixEmbers/Images/blob/main/Survey-Sample.jpg"
+      alt="project"
+      >
+      <p class="project-name">
+        <span>Product Landing Page</span>
+      <img
+      class="project-sample"
+      src="https://github.com/KingPhoenixEmbers/Images/blob/main/Tribute-Page-Sample.v2.jpg"
+      alt="project"
+      >
+        <span>Tribute Page</span>
+    </div>
+    <a href="https://kingphoenixembers.github.io/FreeCodeCamp-Projects/" target="_blank" class="projects-list project-tile">Check out my GitHub!</a>
+  </section>
+  <!-- End Projects Section -->
+  <!-- Start Contact Section -->
+  <section id="contact">
+    <a href="https://www.freecodecamp.org/KingGingy" target="_blank" class="profile-link" id="profile-link">My freeCodeCamp Profile</a>
+  </section>
+  <!-- End Contact Section -->
+  <a href="#top">Return to Top</top>
 </body>
 </html>
