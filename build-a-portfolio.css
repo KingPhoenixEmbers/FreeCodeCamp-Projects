@@ -8,6 +8,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -15,6 +16,7 @@ html {
   font-family: Arial, serif;
   scroll-behavior: smooth;
   font-size: 62.5%;
+  height: 100%;
 }
 
 body {
@@ -77,6 +79,17 @@ ul {
   padding: 0 1rem;
 }
 
+.bg-image {
+  background-image: url("Webpage Banner.png");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Temporarily removing while testing blurred background image
 .welcome-section {
   display: flex;
   flex-direction: column;
@@ -104,7 +117,7 @@ ul {
 .welcome-section .name {
   color: #00d500;
   text-shadow: 1.5px 1.5px 2px black;
-}
+} */
 
 .projects-section {
   padding: 15px;
