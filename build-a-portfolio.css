@@ -77,44 +77,7 @@ ul {
   padding: 0 1rem;
 }
 
-.bg-image {
-  /* Image used */
-  background-image: url("Images/Webpage Banner.png");
-  
-  /* Add the blur effect */
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-  
-  /* Full height */
-  height: 100%;
-  
-  /* Center and scale image correctly */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-/* Position text in middle of page/image */
-.bg-text {
-  background-color: rgb(0,0,0); /* Fallback Color */
-  background-color: rgba(0,0,0, 0.4); /*Black w/ opacity/see-through effect */
-  color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  padding: 20px;
-  text-align: center;
-}
-
-.name {
-  font-size: 50px;	
-}
-
-/* Temporarily removing while testing blurred background image
 .welcome-section {
   display: flex;
   flex-direction: column;
@@ -142,7 +105,7 @@ ul {
 .welcome-section .name {
   color: #00d500;
   text-shadow: 1.5px 1.5px 2px black;
-} */
+} 
 
 .projects-section {
   padding: 15px;
