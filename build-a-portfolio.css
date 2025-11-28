@@ -81,7 +81,7 @@ ul {
 
 .bg-image {
   /* Image used */
-  background-image: url("FreeCodeCamp-Projects/Images/Webpage Banner.png");
+  background-image: url("Images/Webpage Banner.png");
   
   /* Add the blur effect */
   filter: blur(8px);
