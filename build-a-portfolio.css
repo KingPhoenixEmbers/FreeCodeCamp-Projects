@@ -32,12 +32,12 @@ a {
   padding: 2px;
 }
 
-.nav a:hover {
+a:hover {
   color: var(--header-backdrop);
   background-color: var(--link-color);
   cursor: pointer;
-  padding: 2px;
-  border-radius: 0%;
+  padding: 5px;
+  border-radius: 50%;
 }
 
 @media (max-width:30rem) {
@@ -77,7 +77,6 @@ ul {
   padding: 0 1rem;
 }
 
-
 .welcome-section {
   display: flex;
   flex-direction: column;
@@ -105,7 +104,7 @@ ul {
 .welcome-section .name {
   color: #00d500;
   text-shadow: 1.5px 1.5px 2px black;
-} 
+}
 
 .projects-section {
   padding: 15px;
